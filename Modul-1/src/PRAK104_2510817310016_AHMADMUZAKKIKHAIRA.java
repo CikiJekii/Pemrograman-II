@@ -17,16 +17,16 @@ public class PRAK104_2510817310016_AHMADMUZAKKIKHAIRA {
         int poinBagas = 0;
 
         for (int i = 0; i < 3; i++) {
-            char pAbu = abu[i].charAt(0);
-            char pBagas = bagas[i].charAt(0);
+            char Abu = abu[i].charAt(0);
+            char Bagas = bagas[i].charAt(0);
 
-            if (pAbu == pBagas) {
+            if (Abu == Bagas) {
                 continue;
             }
 
-            if ((pAbu == 'B' && pBagas == 'G')
-                    || (pAbu == 'G' && pBagas == 'K')
-                    || (pAbu == 'K' && pBagas == 'B')) {
+            if ((Abu == 'B' && Bagas == 'G')
+                    || (Abu == 'G' && Bagas == 'K')
+                    || (Abu == 'K' && Bagas == 'B')) {
                 poinAbu++;
             } else {
                 poinBagas++;
