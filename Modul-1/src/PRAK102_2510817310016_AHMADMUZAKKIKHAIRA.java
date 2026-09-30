@@ -9,7 +9,7 @@ public class PRAK102_2510817310016_AHMADMUZAKKIKHAIRA {
         int i = 0;
         int angka = bilangan;
 
-        while (i < 11) {
+        while (i < 10) {
             int hasil;
 
             if (angka % 5 == 0) {
