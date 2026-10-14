@@ -1,3 +1,4 @@
+
 package modul3.PRAK302_2510817310016_AHMADMUZAKKIKHAIRA;
 
 import java.util.HashMap;
@@ -46,6 +47,7 @@ public class Negara {
             System.out.println("Negara " + namaNegara
                     + " mempunyai " + jabatanPemimpin
                     + " bernama " + namaPemimpin);
+
             System.out.println("Deklarasi Kemerdekaan pada Tanggal "
                     + tanggalKemerdekaan + " " + bulan + " "
                     + tahunKemerdekaan);

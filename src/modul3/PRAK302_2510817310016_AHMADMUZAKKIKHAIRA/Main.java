@@ -1,3 +1,4 @@
+
 package modul3.PRAK302_2510817310016_AHMADMUZAKKIKHAIRA;
 
 import java.util.HashMap;
@@ -46,8 +47,8 @@ public class Main {
             }
         }
 
-        for (int i = 0; i < listNegara.size(); i++) {
-            listNegara.get(i).cetakNegara(namaBulan);
+        for (Negara negara : listNegara) {
+            negara.cetakNegara(namaBulan);
         }
 
         scanner.close();

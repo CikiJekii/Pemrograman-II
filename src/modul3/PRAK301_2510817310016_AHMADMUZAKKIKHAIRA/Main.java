@@ -16,13 +16,16 @@ public class Main {
             listDadu.add(daduBaru);
         }
 
-        for (int i = 0; i < listDadu.size(); i++) {
-            int nilaiDadu = listDadu.get(i).getNilai();
+        int nomorDadu = 1;
 
-            System.out.println("Dadu ke-" + (i + 1)
+        for (Dadu dadu : listDadu) {
+            int nilaiDadu = dadu.getNilai();
+
+            System.out.println("Dadu ke-" + nomorDadu
                     + " bernilai " + nilaiDadu);
 
             totalNilai += nilaiDadu;
+            nomorDadu++;
         }
 
         System.out.println("Total nilai dadu keseluruhan "
